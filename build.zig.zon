@@ -1,0 +1,23 @@
+.{
+    .name = .Techniti_noia,
+    .version = "0.0.0",
+    .fingerprint = 0xbdd22adbfdb8490c,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        //.example = .{
+        //    .url = "https://example.com/foo.tar.gz",
+        //    .hash = "...",
+        //    .path = "foo",
+        //    .lazy = false,
+        //},
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+        "AUTHORS",
+        "CONTRIBUTING",
+    },
+}
